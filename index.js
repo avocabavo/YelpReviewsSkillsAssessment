@@ -7,7 +7,7 @@ app.get('/', (_req, res)=> {
   res.send('Hello YelpReviewsSkillsAssessment!')
 })
 
-app.get('/qdoba/yelpData/:MY_PARAMETER', qdoba.yelpData)
+app.get('/qdoba/yelpData/:YELP_KEY', qdoba.yelpData)
 
 app.listen(port, ()=> {
   console.log(`listening on port ${port}`)
