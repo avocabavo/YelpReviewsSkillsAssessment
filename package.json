@@ -1,0 +1,22 @@
+{
+  "name": "yelpreviewsskillsassessment",
+  "version": "1.0.0",
+  "description": "Brief challenge for showcasing technical skills.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avocabavo/YelpReviewsSkillsAssessment.git"
+  },
+  "author": "Owen Lange",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avocabavo/YelpReviewsSkillsAssessment/issues"
+  },
+  "homepage": "https://github.com/avocabavo/YelpReviewsSkillsAssessment#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
