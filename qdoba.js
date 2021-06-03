@@ -31,7 +31,7 @@ let qdoba= {
         console.debug(responseBody)
         return res.status(500).send('Could not find the reviews data in the yelp response object.')
       }
-      res.status(200).send(responseBody['reviews'])
+      res.status(200).json(responseBody['reviews'])
     })
     // res.send(`req.params: ${JSON.stringify(req.params)}`)
   }

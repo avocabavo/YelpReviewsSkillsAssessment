@@ -1,13 +1,13 @@
 # YelpReviewsSkillsAssessment
 Brief challenge for showcasing technical skills.
 
-Spin Up:
+## Serve to localhost:3000
 ```
 npm install
 node index.js
 ```
 
-Call:
+## Call
 ```
 localhost:3000/qdoba/yelpData/<<YELP KEY>>
 ```
