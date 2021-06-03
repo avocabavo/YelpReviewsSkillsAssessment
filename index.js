@@ -8,6 +8,7 @@ app.get('/', (_req, res)=> {
 })
 
 app.get('/qdoba/yelpData/:YELP_KEY', qdoba.yelpData)
+app.get('/qdoba/extraCredit/:YELP_KEY', qdoba.extraCredit)
 
 app.listen(port, ()=> {
   console.log(`listening on port ${port}`)

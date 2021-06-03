@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/avocabavo/YelpReviewsSkillsAssessment#readme",
   "dependencies": {
+    "@google-cloud/storage": "^5.8.5",
+    "@google-cloud/vision": "^2.3.3",
     "express": "^4.17.1"
   }
 }
